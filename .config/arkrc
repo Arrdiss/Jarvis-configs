@@ -1,0 +1,20 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Downloads/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=0
+iconViewIconSize=43
+listViewIconSize=15
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABSoAAAKpAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Window-Maximized 768x1366=true
+splitterSizes=879,439
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/170745-AshOS-Dark.tar.gz
+Name1[$e]=170745-AshOS-Dark.tar.gz
