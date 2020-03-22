@@ -1,0 +1,14 @@
+apulse
+awesome-freedesktop-git
+b43-firmware
+inxi
+lain-git
+olivia
+pavolume-git
+pulseaudio-ctl
+spotify
+st
+timeshift
+ttf-ms-fonts
+ttf-vista-fonts
+yay
