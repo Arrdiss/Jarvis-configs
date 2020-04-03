@@ -8,6 +8,8 @@
 # git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 # Setup Alias in $HOME/.zsh/aliasrc
 
+"neofetch"
+
 source /home/arrdiss/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -67,3 +69,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/autojump/autojump.zsh 2>/dev/null
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export TERM=alacritty
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

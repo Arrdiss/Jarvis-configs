@@ -394,6 +394,8 @@ globalkeys = my_table.join(
               {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
+    awful.key({altkey, "Control"},"t", function() awful.spawn("st") end,
+    		{description = "run st", group = "launcher"}),
 
     awful.key({ altkey, "Shift"   }, "l",     function () awful.tag.incmwfact( 0.05)          end,
               {description = "increase master width factor", group = "layout"}),
@@ -745,7 +747,7 @@ awful.rules.rules = {
           "ConfigManager",  -- Thunderbird's about:config.
           "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
 	  "vlc",
-	  "timeshift",
+	  "timeshift-gtk",
         }
       }, properties = { floating = true, titlebars_enabled = true }},
 }
@@ -790,7 +792,7 @@ client.connect_signal("request::titlebars", function(c)
 
     awful.titlebar(c, {size = dpi(16)}) : setup {
         { -- Left
-            awful.titlebar.widget.iconwidget(c),
+            awful.tilebar.widget.iconwidget(c),
             buttons = buttons,
             layout  = wibox.layout.fixed.horizontal
         },
