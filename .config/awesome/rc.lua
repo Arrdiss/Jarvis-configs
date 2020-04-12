@@ -94,8 +94,8 @@ local terminal     = "alacritty"
 local vi_focus     = false -- vi-like client focus - https://github.com/lcpz/awesome-copycats/issues/275
 local cycle_prev   = true -- cycle trough all previous client or just the first -- https://github.com/lcpz/awesome-copycats/issues/274
 local editor       = os.getenv("EDITOR") or "vim"
-local gui_editor   = os.getenv("GUI_EDITOR") or "gvim"
-local browser      = os.getenv("BROWSER") or "firefox"
+local gui_editor   = os.getenv("GUI_EDITOR") or "atom"
+local browser      = os.getenv("BROWSER") or "qutebrowser"
 local scrlocker    = "slock"
 local mediaplayer  = "vlc"
 
@@ -735,6 +735,7 @@ awful.rules.rules = {
           "Wpa_gui",
           "veromix",
           "xtightvncviewer",
+	  "nextcloud",
   	  },
 
         -- Note that the name property shown in xprop might be set slightly after creation of the client
@@ -748,6 +749,7 @@ awful.rules.rules = {
           "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
 	  "vlc",
 	  "timeshift-gtk",
+	  "nextcloud",
         }
       }, properties = { floating = true, titlebars_enabled = true }},
 }
