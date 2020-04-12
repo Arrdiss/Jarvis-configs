@@ -4,13 +4,14 @@ b43-firmware 6.30.163.46-1
 gputest 0.7.0-1
 inxi 3.0.37-2
 lain-git 1707.71ca1bd-1
-monodevelop-bin 7.8.4.1_0xamarin6_ubuntu1804b1-1
+monodevelop-bin 7.8.4.1_0xamarin6_ubuntu1804b1-2
 nouveau-fw 325.15-1
 olivia r813.e232b1f-1
 pavolume-git 20130128-1
+powerpill 2018.11-2
 pulseaudio-ctl 1.67-1
 ruby-bropages 0.1.0-1
-spotify 1:1.1.10.546-3
+spotify 1:1.1.10.546-4
 st 0.8.2-10
 timeshift 20.03-1
 ttf-ms-fonts 2.0-10
